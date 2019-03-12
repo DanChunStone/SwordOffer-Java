@@ -24,6 +24,6 @@ public class Solution {
     }
 
     public int min() {
-
+        return 1;
     }
 }
