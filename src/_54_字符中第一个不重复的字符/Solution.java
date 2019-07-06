@@ -10,12 +10,13 @@ public class Solution {
     private StringBuilder sb = new StringBuilder();
     private int[] frequency = new int[256];
 
-    //Insert one char from stringstream
+    // 插入一个字符进入字符流
     public void Insert(char ch) {
         sb.append(ch);
         frequency[ch]++;
     }
-    //return the first appearence once char in current stringstream
+
+    //返回第一个不重复的字符
     public char FirstAppearingOnce() {
         int length = sb.length();
         for (int i = 0;i < length;i++){

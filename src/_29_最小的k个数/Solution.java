@@ -25,7 +25,7 @@ public class Solution {
 
         // 遍历输入
         for (int i = 0;i < input.length;i++){
-            // 若最小堆没有放满，继续放入元素
+            // 若最大堆没有放满，继续放入元素
             if (i < k){
                 minResult.offer(input[i]);
             }else {
