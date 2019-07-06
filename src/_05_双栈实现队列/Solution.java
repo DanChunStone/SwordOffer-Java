@@ -1,6 +1,5 @@
-package _5_双栈实现队列;
+package _05_双栈实现队列;
 
-import java.util.Iterator;
 import java.util.Stack;
 
 /**

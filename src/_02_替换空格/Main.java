@@ -1,4 +1,4 @@
-package _2_替换空格;
+package _02_替换空格;
 
 import java.util.Scanner;
 
